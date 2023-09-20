@@ -27,6 +27,9 @@
     "uuid": "^9.0.1",
     "vite-express": "^0.10.0"
   },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "concurrently": "^7.6.0",

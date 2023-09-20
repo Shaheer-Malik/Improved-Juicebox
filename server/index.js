@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const PORT =3000;
+const PORT = 5432;
 const ViteExpress = require("vite-express");
 
 // uncomment when ready to deploy

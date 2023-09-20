@@ -1,8 +1,12 @@
+import React from 'react';
+import Register from './components/Register';
 
 function App() {
-    return(
-        <h1>Hello World</h1>
-    )
+  return (
+    <div className="App">
+      <Register />
+    </div>
+  );
 }
 
 export default App;

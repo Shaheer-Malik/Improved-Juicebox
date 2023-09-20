@@ -1,7 +1,6 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {api as storeApi} from "./api";
+import {storeApi} from "./api";
 
- //session storage key
 const CREDENTIALS = "credentials";
 
 const authApi = storeApi.injectEndpoints({

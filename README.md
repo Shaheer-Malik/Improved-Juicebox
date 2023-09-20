@@ -1,8 +1,7 @@
-# The Luke Jones Boilerplate
+# Boilerplate
 
-This template is to create a PERN stack app using Vite with ReactJS, Express, and Postgres. This developed by Luke Jones.
+This template is to create a PERN stack app using Vite with ReactJS, Express, and Postgres.
 
 # Installation
 
-Run npm i to install packages
-
+Run npm i to install packages.
