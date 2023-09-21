@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  seed = "node prisma/seed.js"
 }
 
 datasource db {
@@ -11,4 +12,13 @@ model user {
   id       Int    @id @default(autoincrement())
   username String @unique
   password String
+  posts    Post[]
+}
+
+model Post {
+  id      Int    @id @default(autoincrement()) @unique
+  title   String
+  content String
+  userId  Int
+  author  User   @relation(fields: [userId], references: [id])
 }
